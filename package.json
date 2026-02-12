@@ -1,0 +1,19 @@
+{
+  "name": "social-sentiment",
+  "version": "1.0.0",
+  "description": "Reddit & X/Twitter sentiment analysis with mock data — reference for real API integration",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "analyze": "tsx src/index.ts",
+    "demo:stock": "tsx src/index.ts NVDA",
+    "demo:commodity": "tsx src/index.ts gold",
+    "demo:sector": "tsx src/index.ts --asset tech --source reddit",
+    "demo:market": "tsx src/index.ts SPY"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
